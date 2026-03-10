@@ -1,23 +1,29 @@
-function validateForm()
-{
+/* Dark Mode */
 
-var name=document.getElementById("name").value;
-var email=document.getElementById("email").value;
-
-if(name=="")
-{
-alert("Please enter your name");
-return false;
+.dark-mode{
+background-color:#121212;
+color:white;
 }
 
-if(email=="")
-{
-alert("Please enter email");
-return false;
+.dark-mode header{
+background:#000;
 }
 
-alert("Enquiry Submitted Successfully");
+.dark-mode section{
+background:#1e1e1e;
+color:white;
+}
 
-return true;
+.dark-mode nav a{
+color:#00ffff;
+}
 
+button{
+padding:8px 15px;
+margin-top:10px;
+cursor:pointer;
+border:none;
+background:#ff9800;
+color:white;
+border-radius:5px;
 }
